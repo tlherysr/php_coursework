@@ -22,14 +22,14 @@ body {
     <div class="row">
         <form class="form-horizontal" method="post" action="controller">
         <label for="search-date"><b>Search match by date:</b></label>
-        <input type="text" name="search-date" placeholder="Search for Match" required>
-        <input type="submit" value="search"/>
-        <label for="search-opponent"><b>Search match by opponent:</b></label>
-        <input type="text" name="search-opponent" placeholder="Search for Match" required>
-        <input type="submit" value="search"/>
+        <input id="rad" type="text" name="search-date" placeholder="Search for Match" id="rad" required>
+        <input type="submit" value="search" id="rad" class="btn btn-primary"/>
+        <label id="rad" for="search-opponent"><b>Search match by opponent:</b></label>
+        <input type="text" name="search-opponent" placeholder="Search for Match" id="rad" required>
+        <input type="submit" value="search" id="rad" class="btn btn-primary"/>
         <div class="col-sm-8">
         <label for="search-type"><b>Search match by match type:</b></label>
-        <select class="form-control" id="search-type">
+        <select class="form-control" id="search-type rad">
             <option value="" disabled selected>Please choose a match type</option>
             <option value="home">Home</option>
             <option value="away">Away</option>
@@ -54,10 +54,10 @@ body {
     </div>
     </div>
 </div>
-    <div class="container-fluid matches-table">
+    <div class="container matches-table">
         <div class="tablee">
             <div class="col-md-12">
-                <h1 class="text-center"> Up-coming goes here</h1>
+                <h1> Up-coming goes here</h1>
                 <hr>
                 <table class="table table-striped">
                 <thead>
@@ -66,6 +66,8 @@ body {
                     <th>Opponent</th>
                     <th>Location</th>
                     <th>Match Type</th>
+                    <th>Purchase</th>
+                    <th>More Info<th>
                     </tr>
                 </thead>
                 <tbody>
@@ -74,36 +76,90 @@ body {
                     <td>some team</td>
                     <td>home</td>
                     <td>premier</td>
+                    <td>
+                    <button type="button" class="btn-success" value="AddCart" id="submit">Add to cart! 
+                    <span class="glyphicon glyphicon-shopping-cart" id="cart"></span></button>
+                    </div>
+                    </td>
+                    <td>
+                    <button type="button" class="btn-info" value="moreDetails" id="submit">Click for more details
+                    </button>
+                    </td>
                     </tr>
                     <tr>
                     <td>01/02/2020</td>
                     <td>some team</td>
                     <td>home</td>
                     <td>premier</td>
+                    <td>
+                    <button type="button" class="btn-success" value="Add to Cart" id="submit">Add to cart! 
+                    <span class="glyphicon glyphicon-shopping-cart" id="cart"></span></button>
+                    </div>
+                    </td>
+                    <td>
+                    <button type="button" class="btn-info" value="moreDetails" id="submit">Click for more details
+                    </button>
+                    </td>
                     </tr>
                     <tr>
                     <td>01/02/2020</td>
                     <td>some team</td>
                     <td>home</td>
                     <td>premier</td>
+                    <td>
+                    <button type="button" class="btn-success" value="Add to Cart" id="submit">Add to cart! 
+                    <span class="glyphicon glyphicon-shopping-cart" id="cart"></span></button>
+                    </div>
+                    </td>
+                    <td>
+                    <button type="button" class="btn-info" value="moreDetails" id="submit">Click for more details
+                    </button>
+                    </td>
                     </tr>
                     <tr>
                     <td>01/02/2020</td>
                     <td>some team</td>
                     <td>home</td>
                     <td>premier</td>
+                    <td>
+                    <button type="button" class="btn-success" value="Add to Cart" id="submit">Add to cart! 
+                    <span class="glyphicon glyphicon-shopping-cart" id="cart"></span></button>
+                    </div>
+                    </td>
+                    <td>
+                    <button type="button" class="btn-info" value="moreDetails" id="submit">Click for more details
+                    </button>
+                    </td>
                     </tr>
                     <tr>
                     <td>01/02/2020</td>
                     <td>some team</td>
                     <td>home</td>
                     <td>premier</td>
+                    <td>
+                    <button type="button" class="btn-success" value="Add to Cart" id="submit">Add to cart! 
+                    <span class="glyphicon glyphicon-shopping-cart" id="cart"></span></button>
+                    </div>
+                    </td>
+                    <td>
+                    <button type="button" class="btn-info" value="moreDetails" id="submit">Click for more details
+                    </button>
+                    </td>
                     </tr>
                     <tr>
                     <td>01/02/2020</td>
                     <td>some team</td>
                     <td>home</td>
                     <td>premier</td>
+                    <td>
+                    <button type="button" class="btn-success" value="Add to Cart" id="submit">Add to cart! 
+                    <span class="glyphicon glyphicon-shopping-cart" id="cart"></span></button>
+                    </div>
+                    </td>
+                    <td>
+                    <button type="button" class="btn-info" value="moreDetails" id="submit">Click for more details
+                    </button>
+                    </td>
                     </tr>
                 </tbody>
             </table>
@@ -112,11 +168,7 @@ body {
     </div>
 </div>
 </div>
-</div>
-</div>
-</div>
-</div>
-</div>
+
 
 
 

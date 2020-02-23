@@ -1,3 +1,7 @@
+.container {
+  border-radius: 10px;
+}
+
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
@@ -204,6 +208,10 @@ p {
   margin-top: 70px;
 }
 
+#please-login {
+  padding-left:15px;
+}
+
 /* Hide the carousel text when the screen is less than 600 pixels wide */
 @media (max-width: 600px) {
   .carousel-caption {
@@ -272,6 +280,10 @@ hr {
   margin-bottom: 25px;
 }
 
+.hv {
+  border-left: 3px solid #f1f1f1;
+}
+
 .matches-table {
   height: auto;
   background-color: whitesmoke;
@@ -292,6 +304,18 @@ hr {
   font-size: 24px;
   padding: 20px 0 20px 0;
   border-bottom: 1px solid #dee0e4;
+}
+
+.matches-table h1 {
+  text-align: center;
+  color: #5b6574;
+  font-size: 24px;
+  padding: 20px 0 20px 0;
+  border-bottom: 1px solid #dee0e4;
+}
+
+#rad {
+  border-radius: 10px;
 }
 
 .matches-box form {
@@ -477,7 +501,7 @@ iframe {
   background-color: whitesmoke;
   box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
   margin: 100px auto;
-  margin-bottom: 258px;
+  margin-bottom: 276px;
 }
 
 .order h1 {
@@ -568,4 +592,154 @@ background-color: whitesmoke;
 #price {
  text-decoration: underline; 
  font-size: large;
+}
+
+.cart {
+  height: auto;
+  width: 400px;
+  background-color: whitesmoke;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+  margin: 30px auto;
+  margin-bottom: 300px;
+}
+
+.cart h1 {
+  text-align: center;
+  color: #5b6574;
+  font-size: 24px;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid #dee0e4;
+}
+
+.cart form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.cart form input[type="text"], .login form input[type="text"] {
+  width: 310px;
+  height: 50px;
+  border: 1px solid #dee0e4;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+
+.cart form input[type="password"], .login form input[type="text"] {
+  width: 310px;
+  height: 50px;
+  border: 1px solid #dee0e4;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+
+.cart form input[type="submit"] {
+  width: 100%;
+  padding: 15px;
+  margin-top: 60px;
+  background-color: #555;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  color: whitesmoke;
+  transition: background-color 0.2s;
+}
+
+.cart form input[type="submit"]:hover {
+background-color: whitesmoke;
+  transition: background-color 0.2s;
+}
+
+#checkout {
+  width: 300px;
+  height: 50px;
+  bottom: 10px;
+  position: absolute;
+}
+
+.checkout-div {
+  height: 50px;
+  display: flex;
+}
+
+.check-logo {
+  height: 10px;
+}
+
+#check-logo {
+  height: 100%;
+}
+
+.price-col {
+  height: 200px;
+}
+
+.profile {
+  height: auto;
+  width: 400px;
+  background-color: whitesmoke;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+  margin: 100px auto;
+  margin-bottom: 276px;
+}
+
+.profile h1 {
+  text-align: center;
+  color: #5b6574;
+  font-size: 24px;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid #dee0e4;
+}
+
+.profile form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.profile form input[type="text"], .login form input[type="text"] {
+  width: 310px;
+  height: 50px;
+  border: 1px solid #dee0e4;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+
+.profile form input[type="password"], .login form input[type="text"] {
+  width: 310px;
+  height: 50px;
+  border: 1px solid #dee0e4;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+
+.profile form input[type="submit"] {
+  width: 100%;
+  padding: 15px;
+  margin-top: 60px;
+  background-color: #555;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  color: whitesmoke;
+  transition: background-color 0.2s;
+}
+
+.profile form input[type="submit"]:hover {
+background-color: whitesmoke;
+  transition: background-color 0.2s;
+}
+
+.profile-main {
+  height: 60px;
+}
+
+.bor {
+  border-top: #f1f1f1 solid 2px;
+  border-right: #f1f1f1 solid 2px;
+  border-left: #f1f1f1 solid 2px;
+  margin: 2px;
+  height: 100%;
 }

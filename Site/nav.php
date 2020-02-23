@@ -19,7 +19,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="signup.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
         <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-        <li><a href="Cart.php"><span class="glyphicon glyphicon-shopping-cart"></span> My Cart</a></li>
+        <li><a href="cart.php"><span class="glyphicon glyphicon-shopping-cart"></span> My Cart</a></li>
       </ul>
     </div>
   </div>

@@ -8,6 +8,7 @@
 
 <div class="login">
   <h1>Login</h1>
+  <p id="please-login">Please login using your username and password:</p>
     <form action="authenticate.php" method="post">
       <label for="username">
         <i class="fas fa-user"></i>
