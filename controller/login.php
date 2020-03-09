@@ -4,7 +4,7 @@ session_start();
 require_once '../model/dataAccess.php';
 
 if (isset($_SESSION['loggedin'])) {
-    header('Location: home.php');
+    header('Location: index.php');
     exit;
 }
 
@@ -17,14 +17,15 @@ if(isset($_POST['login'])) {
     $user = is_user($username);
 
     if ( $user ) {
-        // FIXME: $password = "rasmuslerdorf"
         $validPassword = password_verify($password, $user->password);
         
         if ($validPassword) {
             $_SESSION['loggedin'] = TRUE;
-            $_SESSION['name'] = $user->username;
-
-            header('Location: home.php');
+            $_SESSION['username'] = $user->username;
+            $_SESSION['userID'] = $user->id;
+            $_SESSION['isAdmin'] = $user->isAdmin;
+            $_SESSION['cart'] = array();
+            header('Location: index.php');
             exit;
             
         } else {
@@ -37,6 +38,6 @@ if(isset($_POST['login'])) {
     }
 }
 
-
-require_once "../view/login_view.php";
+require_once "../view/includes/a_config.php";
+require_once "../view/registration/login_view.php";
 ?>

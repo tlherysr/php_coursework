@@ -1,5 +1,9 @@
 <?php
 
+// ini_set('display_errors', 1);
+// ini_set('display_startup_errors', 1);
+// error_reporting(E_ALL);
+
 session_start();
 require_once '../model/dataAccess.php';
 
@@ -9,8 +13,10 @@ if (!isset($_SESSION['loggedin'])) {
 	exit();
 }
 
-$user = fetch_user_profile($_SESSION['name']);
+$user = fetch_user_profile($_SESSION['username']);
+$tickets = get_user_tickets($user->id);
 
-require_once '../view/profile_view.php';
+require_once '../view/includes/a_config.php';
+require_once '../view/account/profile_view.php';
 
 ?>

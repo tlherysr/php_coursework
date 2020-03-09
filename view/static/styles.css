@@ -1,0 +1,790 @@
+.container {
+  border-radius: 10px;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+  
+.carousel-inner img {
+  width: 100%; 
+  margin: auto;
+  min-height:200px;
+}
+
+.sidenav {
+  padding-top: 20px;
+  background-color: #f1f1f1;
+  height: 40%;
+}
+
+#logo {
+  margin-right: 20px;
+  height: 50px;
+}
+
+.calendar {
+  height: 500px;
+  background:lightgoldenrodyellow;
+}
+
+.games {
+  position:center;
+}
+
+footer {
+  background-color: #555;
+  margin-top: 10px;
+  width: 100%;
+  bottom: 0;
+  font-weight: lighter;
+  color: white;
+  position: static;
+  bottom:0;
+}
+
+.footerHeader{
+  width:100%;
+  padding:1em;
+  background-color: #555;
+  text-align:center;
+  color:white;
+}
+
+footer h3{
+  font-weight:lighter;
+}
+
+footer ul{
+  padding-left:5px;
+  list-style:none;
+}
+
+footer p{
+  text-align : justify;
+  font-size : 12px;
+}
+
+footer iframe {
+  width:100%;
+  position:relative;
+  height:170px;
+}
+
+.sm{
+  list-style:none;
+  overflow:auto;
+}
+
+.sm li {
+  display: inline;
+  padding:5px;
+  float:left;
+}
+
+.sm li a img {
+  width:32px;
+}
+
+.promo {
+  overflow: hidden;
+}
+
+.tickets {
+  overflow: hidden;
+  padding-right: 15px;
+  padding-left: -15px;
+}
+
+.promo-col {
+  background:whitesmoke;
+  padding-bottom: 50px;
+  overflow: hidden;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+
+  font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.over-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-decoration-line: underline;
+}
+
+.tables {
+  background: floralwhite;
+} */
+
+* {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.white-body {
+  background-color: white;
+}
+
+.login {
+  height: auto;
+  width: 400px;
+  background-color: whitesmoke;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+  margin: 100px auto;
+}
+
+.login h1 {
+  text-align: center;
+  color: #5b6574;
+  font-size: 24px;
+  padding: 20px 0 20px 0;
+  border-bottom: 1px solid #dee0e4;
+}
+
+.login form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.login form label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #555;
+  color: #ffffff;
+}
+
+.login form input[type="password"], .login form input[type="text"] {
+  width: 310px;
+  height: 50px;
+  border: 1px solid #dee0e4;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+
+.login form input[type="submit"] {
+  width: 100%;
+  padding: 15px;
+  margin-top: 60px;
+  background-color: #555;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  color: whitesmoke;
+  transition: background-color 0.2s;
+}
+
+.login form input[type="submit"]:hover {
+  background-color: whitesmoke;
+  transition: background-color 0.2s;
+}
+
+.login form {
+  margin-top: 70px;
+}
+
+#please-login {
+  padding-left:15px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; 
+  }
+}
+
+.register {
+  height: auto;
+  width: 400px;
+  background-color: whitesmoke;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+  margin: 100px auto;
+}
+
+.register h1 {
+  text-align: center;
+  color: #5b6574;
+  font-size: 24px;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid #dee0e4;
+}
+
+.register form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.register form input[type="text"], .login form input[type="text"] {
+  width: 310px;
+  height: 50px;
+  border: 1px solid #dee0e4;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+
+.register form input[type="password"], .login form input[type="text"] {
+  width: 310px;
+  height: 50px;
+  border: 1px solid #dee0e4;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+
+.register form input[type="submit"] {
+  width: 100%;
+  padding: 15px;
+  margin-top: 60px;
+  background-color: #555;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  color: whitesmoke;
+  transition: background-color 0.2s;
+}
+
+.register form input[type="submit"]:hover {
+background-color: whitesmoke;
+  transition: background-color 0.2s;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.hv {
+  border-left: 3px solid #f1f1f1;
+}
+
+.matches-table {
+  height: auto;
+  background-color: whitesmoke;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+  margin: 30px auto;
+}
+
+.matches-box {
+  height: auto;
+  width: 400px;
+  background-color: whitesmoke;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+  margin: 30px auto;
+}
+
+.matches-box h1 {
+  text-align: center;
+  color: #5b6574;
+  font-size: 24px;
+  padding: 20px 0 20px 0;
+  border-bottom: 1px solid #dee0e4;
+}
+
+.matches-table h1 {
+  text-align: center;
+  color: #5b6574;
+  font-size: 24px;
+  padding: 20px 0 20px 0;
+  border-bottom: 1px solid #dee0e4;
+}
+
+#rad {
+  border-radius: 10px;
+}
+
+.matches-box form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.matches-box form input[type="text"] {
+  width: auto;
+  height: 50px;
+  border: 1px solid #dee0e4;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  padding: 15px;
+}
+
+.matches-box form input[type="date"] {
+  width: auto;
+  height: 50px;
+  border: 1px solid #dee0e4;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  padding: 15px;
+}
+
+.matches-box form input[type="password"] {
+  width: 310px;
+  height: 50px;
+  border: 1px solid #dee0e4;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+
+.matches-box form input[type="submit"] {
+  height: 50px;
+  border: 1;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.matches-box form input[type="submit"]:hover {
+  background-color: whitesmoke;
+  transition: background-color 0.2s;
+}
+
+.matches-box form label {
+  padding:15px;
+}
+
+.match-search {
+  display: flex;
+  align-items: center;
+}
+
+#match-search {
+  width: 150px;
+  float: none;
+}
+
+#search-position {
+  margin-bottom: 30px;  
+}
+
+.text-box {
+  height: auto;
+  width: 400px;
+  background-color: whitesmoke;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+  margin: 30px auto;
+}
+
+.text-box h1 {
+  text-align: center;
+  color: #5b6574;
+  font-size: 24px;
+  padding: 20px 0 20px 0;
+  border-bottom: 1px solid #dee0e4;
+}
+
+.text-box form {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  /* padding-top: 20px; */
+}
+
+.text-box form input[type="text"] {
+  width: auto;
+  height: 50px;
+  border: 1px solid #dee0e4;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  /* padding: 0 15px; */
+}
+
+.text-box form input[type="password"] {
+  width: 310px;
+  height: 50px;
+  border: 1px solid #dee0e4;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+
+.text-box form input[type="submit"] {
+  height: 50px;
+  border: 1;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.text-box form input[type="submit"]:hover {
+  background-color: whitesmoke;
+  transition: background-color 0.2s;
+}
+
+.text-box form label {
+  padding:15px;
+}
+
+.contact-con {
+  height: auto;
+  width: 400px;
+  background-color: whitesmoke;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+  margin: 30px auto;
+}
+
+.contact-con h1 {
+  text-align: center;
+  color: #5b6574;
+  font-size: 24px;
+  padding: 20px 0 20px 0;
+  border-bottom: 1px solid #dee0e4;
+}
+
+.contact-con form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-con form input[type="text"] {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #dee0e4;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  padding: 15px;
+}
+
+.contact-con form input[type="password"] {
+  width: 310px;
+  height: 50px;
+  border: 1px solid #dee0e4;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+
+.contact-con form input[type="submit"] {
+  height: 50px;
+  border: 1;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.contact-con form input[type="submit"]:hover {
+  background-color: whitesmoke;
+  transition: background-color 0.2s;
+}
+
+.contact-con form label {
+  padding:15px;
+}
+
+iframe {
+  width: 100%;
+}
+
+#contact-where {
+  text-decoration: underline;
+}
+
+.button {
+  margin-bottom: 15px;
+}
+
+.order {
+  height: auto;
+  width: 400px;
+  background-color: whitesmoke;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+  margin: 100px auto;
+  margin-bottom: 276px;
+}
+
+.order h1 {
+  text-align: center;
+  color: #5b6574;
+  font-size: 24px;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid #dee0e4;
+}
+
+.order form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.order form input[type="text"], .login form input[type="text"] {
+  width: 310px;
+  height: 50px;
+  border: 1px solid #dee0e4;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+
+.order form input[type="password"], .login form input[type="text"] {
+  width: 310px;
+  height: 50px;
+  border: 1px solid #dee0e4;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+
+.order form input[type="submit"] {
+  width: 100%;
+  padding: 15px;
+  margin-top: 60px;
+  background-color: #555;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  color: whitesmoke;
+  transition: background-color 0.2s;
+}
+
+.order form input[type="submit"]:hover {
+background-color: whitesmoke;
+  transition: background-color 0.2s;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container > div {
+  display: flex;
+  width: 200px;
+  margin: 10px;
+  align-items: center;
+  float: left;
+}
+
+.form #main {
+  width: 100%;
+}
+
+.space {
+  margin-right: 15px;
+}
+
+
+.flex-container #submit {
+  width: 150px;
+  margin: 10px;
+  height: 45px;
+  align-items: center;
+  float: left;
+}
+
+.form-inline {
+  padding-bottom: 15px;
+}
+
+#cart {
+  float: right;
+}
+
+#price {
+ text-decoration: underline; 
+ font-size: large;
+}
+
+.cart {
+  height: auto;
+  width: 400px;
+  background-color: whitesmoke;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+  margin: 30px auto;
+  margin-bottom: 300px;
+}
+
+.cart h1 {
+  text-align: center;
+  color: #5b6574;
+  font-size: 24px;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid #dee0e4;
+}
+
+.cart form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.cart form input[type="text"], .login form input[type="text"] {
+  width: 310px;
+  height: 50px;
+  border: 1px solid #dee0e4;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+
+.cart form input[type="password"], .login form input[type="text"] {
+  width: 310px;
+  height: 50px;
+  border: 1px solid #dee0e4;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+
+.cart form input[type="submit"] {
+  width: 100%;
+  padding: 15px;
+  margin-top: 60px;
+  background-color: #555;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  color: whitesmoke;
+  transition: background-color 0.2s;
+}
+
+.cart form input[type="submit"]:hover {
+background-color: whitesmoke;
+  transition: background-color 0.2s;
+}
+
+#checkout {
+  width: 300px;
+  height: 50px;
+  bottom: 10px;
+  position: absolute;
+}
+
+.checkout-div {
+  height: 50px;
+  display: flex;
+}
+
+.check-logo {
+  height: 10px;
+}
+
+#check-logo {
+  height: 100%;
+}
+
+.price-col {
+  height: 200px;
+}
+
+.profile {
+  height: auto;
+  width: 400px;
+  background-color: whitesmoke;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+  margin: 100px auto;
+  margin-bottom: 276px;
+}
+
+.profile h1 {
+  text-align: center;
+  color: #5b6574;
+  font-size: 24px;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid #dee0e4;
+}
+
+.profile form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.profile form input[type="text"], .login form input[type="text"] {
+  width: 310px;
+  height: 50px;
+  border: 1px solid #dee0e4;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+
+.profile form input[type="password"], .login form input[type="text"] {
+  width: 310px;
+  height: 50px;
+  border: 1px solid #dee0e4;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+
+.profile form input[type="submit"] {
+  width: 100%;
+  padding: 15px;
+  margin-top: 60px;
+  background-color: #555;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  color: whitesmoke;
+  transition: background-color 0.2s;
+}
+
+.profile form input[type="submit"]:hover {
+background-color: whitesmoke;
+  transition: background-color 0.2s;
+}
+
+.profile-main {
+  height: 60px;
+}
+
+.bor {
+  border-top: #f1f1f1 solid 2px;
+  border-right: #f1f1f1 solid 2px;
+  border-left: #f1f1f1 solid 2px;
+  margin: 2px;
+  height: 100%;
+}
+
+.game-info {
+height: auto;
+width: 400px;
+background-color: whitesmoke;
+box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+margin: 30px auto;
+}
+
+.game-info h1 {
+text-align: center;
+color: #5b6574;
+font-size: 24px;
+padding: 0 0 20px 0;
+border-bottom: 1px solid #dee0e4;
+}
+
+.game-info form {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding-top: 20px;
+}
+
+.profile-main {
+height: 60px;
+}
+
+#update {
+  margin-bottom: 30px;
+}
+
+.search-type {
+  margin-bottom: 30px;
+}
